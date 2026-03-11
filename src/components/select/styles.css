@@ -1,0 +1,12 @@
+select {
+  color: #4A4949;
+  width: 100%;
+  background-color: #212121;
+  margin: 10px 0px 10px 0px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #4A4949;
+  padding-right: 1px;
+  font-weight: 400;
+  font-size: 16px;line-height: 120%;
+}
