@@ -1,2 +1,2 @@
-export * from './formularioEvento'
-export * from './select'
+export * from "./formularioEvento"
+export * from "./select"

@@ -1,5 +1,5 @@
 import type { IInputProps } from "../interfaces";
-import './styles.css'
+import "./styles.css"
 export const Input = (props:IInputProps) => {
   return (
     <div className='agrupamentoInput'>

@@ -2,17 +2,17 @@ import { Button } from "../button/Button";
 import { Input } from "../input";
 import type { ICardEvento } from "../interfaces";
 import { Select } from "../select";
-import './styles.css'
+import "./styles.css"
 
 export default function FormularioEvento(props:{aoSubmter:(evento:ICardEvento) => void}) {
   function submeterFormulario (formData:FormData){
     
     const evento:ICardEvento = {
-        titulo: formData.get('nomeEvento') as string,
-        imagem: formData.get('imagemEvento') as string,
-        descricao: 'Mulheres no front' as string, 
-        data: new Date(formData.get('dataEvento')as string),
-        tema: formData.get('temaEvento') as string
+        titulo: formData.get("nomeEvento") as string,
+        imagem: formData.get("imagemEvento") as string,
+        descricao: "Mulheres no front" as string, 
+        data: new Date(formData.get("dataEvento")as string),
+        tema: formData.get("temaEvento") as string
     }
    props.aoSubmter(evento)
   }
